@@ -1,0 +1,141 @@
+body {
+  background-color: #222222;
+  font-family: "Fira Sans", sans-serif;
+}
+.nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav .nav-link:hover {
+  color: #44d62c;
+  font-weight: bold;
+}
+.nav .TF {
+  color: white;
+}
+.nav .TF:hover {
+  color: rgb(68, 214, 44);
+}
+.active-custom {
+  color: rgb(68, 214, 44) !important;
+  font-weight: bold !important;
+}
+.navigasi {
+  border: 2px solid rgb(68, 214, 44);
+}
+@media (max-width: 600px) {
+  .navbar-brand img {
+    display: none;
+  }
+  .dropdown {
+    margin-top: 30px;
+    margin: 10px auto;
+  }
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.dropdown-toggle.btn-custom {
+  color: rgb(68, 214, 44);
+}
+.dropdown-menu .dropdown-item {
+  color: rgb(255, 255, 255);
+  background-color: #101010;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: rgb(68, 214, 44);
+  font-weight: bold;
+}
+
+.btn .bi-box-arrow-right {
+  opacity: 0;
+  transition: 0.5s;
+}
+.btn:hover .bi-box-arrow-right {
+  opacity: 1;
+}
+.btn .bi-pen {
+  display: none;
+}
+.btn:hover .bi-pen {
+  display: inline;
+}
+
+.film {
+  margin-top: 160px;
+}
+.film img {
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .film img {
+    width: 365px;
+  }
+}
+.act {
+  color: #44d62c;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand img {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img-poster img {
+    width: 100px;
+  }
+}
+.trailer video {
+  width: 640px;
+}
+@media screen (max-width: 600px) {
+  .triler video {
+    width: 920px;
+  }
+}
+.kategori {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.footer img {
+  width: 450px;
+}
+@media screen and (max-width: 600px) {
+  .footer img {
+    width: 250px;
+  }
+}
+
+.bg-success {
+  background-color: #44d62c !important;
+}
+.btn-success {
+  background-color: #44d62c !important;
+}
+.text-success {
+  color: #44d62c !important ;
+}
+
+.btn .bi-arrow-left-circle {
+  display: none;
+}
+.btn:hover .bi-arrow-left-circle {
+  display: inline;
+}
+.btn .bi-arrow-right-circle {
+  display: none;
+}
+.btn:hover .bi-arrow-right-circle {
+  display: inline;
+}
